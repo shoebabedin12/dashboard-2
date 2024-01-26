@@ -1,0 +1,277 @@
+/** ------------------------------------------------------------------
+							Wrapper Screen
+------------------------------------------------------------------ **/
+@media only screen and (min-width: 1700px) {
+  .single_event_options .row > div {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  .preview_s_single_ticket_box_head_icon svg {
+    height: 26px !important;
+  }
+}
+
+/** ------------------------------------------------------------------
+                Tab Screen
+  ------------------------------------------------------------------ **/
+@media only screen and (max-width: 1230px) and (min-width: 769px) {
+  .single_input_box_duration select {
+    width: 100%;
+  }
+  .single_input_box_duration_extra {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  .single_input_box_rado ul li {
+    margin-right: 13px;
+  }
+}
+
+/** ------------------------------------------------------------------
+                Mobile Screen
+  ------------------------------------------------------------------ **/
+@media only screen and (max-width: 768px) {
+  .dash_left_bar_area {
+    margin-left: -100%;
+    width: 100%;
+  }
+  .dash_main_conent_wrapper {
+    padding-top: 105px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+  .dash_top_bar_area {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .dash_top_bar_right_menu,
+  .dash_top_bar_btn {
+    display: none;
+  }
+  #header-mobile-menu-trigger-left {
+    display: block;
+  }
+  .dash_top_bar_mobile_logo {
+    display: block;
+  }
+  .dash_left_bar_logo button {
+    display: block;
+  }
+  .dash_left_bar_logo {
+    margin-bottom: 50px;
+  }
+  .dash_content_main_head h2 {
+    font-size: 19px;
+  }
+  .dash_content_main_head {
+    padding: 22px 20px 20px;
+  }
+  .form_left_col {
+    width: 100%;
+    border-right: 0 solid #000;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .dash_content_main_center {
+    padding: 0 20px;
+  }
+  .form_left_col_progress ul li {
+    margin-bottom: 16px;
+  }
+  .form_box_area_main {
+    padding-top: 25px;
+    padding-right: 0;
+    padding-bottom: 25px;
+  }
+  .multifieldrow_wrapper .multifieldrow_wrapper_single {
+    margin-bottom: 20px;
+  }
+  .single_input_box_duration select {
+    width: 100%;
+  }
+  .single_input_box_duration_extra {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  .single_input_box_rado ul li {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .dash_content_main_bottom_process {
+    padding: 15px 20px;
+  }
+  .dash_main_table_wrapper table {
+    width: 700px;
+    overflow: auto;
+  }
+  .dash_main_main_table {
+    overflow: auto !important;
+  }
+  .econ_sponsor_table table {
+    width: 400px !important;
+  }
+  .single_event_manage_details {
+    font-size: 12.5px;
+  }
+  .dash_content_main_center_with_padding {
+    padding: 20px 0;
+  }
+  .dash_content_main_event_head {
+    padding: 20px;
+  }
+  .dash_content_main_event_head_action {
+    position: static;
+    margin-top: 20px;
+  }
+  .dash_content_main_event_head_box h2 {
+    font-size: 19px;
+  }
+  .dash_content_main_event_head_attr ul li {
+    border-right: 0 solid rgba(0, 0, 0, 0.15);
+    margin-right: 0;
+    padding-right: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .dash_content_main_event_head_attr ul li:last-child {
+    margin-bottom: 0;
+  }
+  .dash_content_main_event_head_action ul li a {
+    font-size: 11px;
+    padding: 5px 7px;
+  }
+  .dash_content_main_event_head_action ul li {
+    margin-right: 5px;
+  }
+  .dash_content_main_event_status ul li {
+    border-right: 0 solid rgba(0, 0, 0, 0.15);
+    margin-right: 0;
+    padding-right: 0;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .dash_content_main_event_status ul li:last-child {
+    margin-bottom: 0;
+  }
+  .dash_content_main_event_status {
+    padding: 15px 20px;
+  }
+  .single_event_options_single_title h2 {
+    font-size: 12.5px;
+  }
+  .single_event_options .row {
+    margin: -6px;
+  }
+  .single_event_options .row > div {
+    padding: 6px;
+  }
+  .pregistration_box {
+    display: block;
+    padding: 18px 23px;
+  }
+  .pregistration_box_title h2 {
+    font-size: 17px;
+  }
+  .pregistration_box > div {
+    margin-bottom: 10px;
+  }
+  .pregistration_box > div:last-child {
+    margin-bottom: 0;
+  }
+  .pregistration_box_action .single_bankaccountdetails_action {
+    float: left;
+  }
+  .preregistration_table_data_wrapper_NOdata {
+    padding: 60px 20px;
+  }
+  .preregistration_table_data_wrapper_table_details_filter_box {
+    width: 100%;
+    display: block;
+  }
+  .preregistration_table_data_wrapper_table_details_filter_box input,
+  .preregistration_table_data_wrapper_table_details_filter_box select {
+    width: 48% !important;
+    margin-left: 0;
+    margin-right: 2%;
+    margin-top: 10px;
+  }
+  .settings_ser_table table {
+    width: 580px;
+  }
+  .preregistration_table_data_wrapper_table_details_filter span.searchrslttotal {
+    float: left;
+  }
+  .settings_ser_table {
+    overflow: auto;
+  }
+  .preregistration_table_data_wrapper_table .settings_ser_table table {
+    width: 1000px;
+  }
+  .preregistration_table_data_wrapper_table .settings_ser_table {
+    max-height: 323px;
+  }
+  .preregistration_table_data_gate_manage .preregistration_table_data_wrapper_table .settings_ser_table table {
+    max-width: 600px !important;
+  }
+  .Preview_content_wrapper .artst_table2_single h2 {
+    font-size: 14px;
+  }
+  .artst_table2_single h2 ul li {
+    margin-right: 12px;
+    padding-right: 12px;
+  }
+  .css-1r7psgy.pin-left,
+  .css-1r7psgy.pin-right,
+  .css-1r7psgy,
+  .css-19x09ho.pin-left,
+  .css-19x09ho.pin-right {
+    position: static !important;
+  }
+  .dy_ser_table {
+    overflow: auto;
+    padding-bottom: 121px;
+  }
+  .large_table_bottom_sr {
+    font-size: 14px;
+    float: none;
+  }
+  .large_table_bottom ul {
+    float: none;
+  }
+  .large_table_bottom ul li {
+    font-size: 14px;
+    margin-right: 0;
+    margin-top: 8px;
+  }
+  .large_table_bottom {
+    padding: 20px 20px;
+  }
+  .add_priv_ticket {
+    padding: 6px 10px;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  .single_input_box_withupload input[type='text'] {
+    width: 100%;
+  }
+  .single_input_box_withupload .dash_main_main_table_form_up {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .bankaccountdetails_wrapper .single_bankaccountdetails_action {
+    width: 100%;
+    padding-left: 59px;
+    padding-bottom: 8px;
+  }
+  .single_bankaccountdetails_details {
+    width: calc(100% - 46px);
+    margin-top: 1.5px;
+    padding-left: 13px;
+  }
+}
